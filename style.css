@@ -8,6 +8,10 @@
     font-family: 'Rubik', sans-serif;
     }
 
+main section{
+    margin-top: 100px;
+}    
+
 /* shared style......... */
 
 .btn-primary{
@@ -50,4 +54,59 @@
 }
 
 /* main ............. */
+
+.feature-title{
+    text-align: center;
+}
+
+.feature-title h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.feature-title p {
+    padding: 5px 300px;
+}
+
+.features-items{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    width: 400px;
+    height: 500px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.img-box-1{
+
+    background-color: #FFD4CF;
+    background-image: url(images/pngwing\ 6.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.img-box-2{
+
+    background-color: #92E0C0;
+    background-image: url(images/pngwing\ 5.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.img-box-3{
+    background-color: #AAE077;
+    background-image: url(images/pngwing\ 7.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.features-items p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
 
